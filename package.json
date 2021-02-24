@@ -1,10 +1,10 @@
 {
-  "name": "my-math",
+  "name": "my-math-conan",
   "version": "1.0.0",
   "description": "Math functions ",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/conanmalanaphy/My-Math/issues"
   },
-  "homepage": "https://github.com/conanmalanaphy/My-Math#readme"
+  "homepage": "https://github.com/conanmalanaphy/My-Math#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
