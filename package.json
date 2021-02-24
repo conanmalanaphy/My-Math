@@ -1,0 +1,19 @@
+{
+  "name": "my-math",
+  "version": "1.0.0",
+  "description": "Math functions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conanmalanaphy/My-Math.git"
+  },
+  "author": "Conan Malanaphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conanmalanaphy/My-Math/issues"
+  },
+  "homepage": "https://github.com/conanmalanaphy/My-Math#readme"
+}
