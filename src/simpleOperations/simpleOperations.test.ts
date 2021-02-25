@@ -1,9 +1,9 @@
-const {
+import {
     add,
     subtract,
     multiply,
     divide,
-    exponent } = require('./simpleOperations')
+    exponent } from './simpleOperations';
 
 describe("Calculator tests", () => {
     test('adding 1 + 2 should return 3', () => {

@@ -1,8 +1,8 @@
-const { add,
+import  { add,
     subtract,
     multiply,
     divide,
-    exponent } = require('./simpleOperations/simpleOperations')
+    exponent } from './simpleOperations';
 
 const myMath = {
     add: add,
@@ -12,4 +12,4 @@ const myMath = {
     exponent: exponent
 }
 
-module.exports = { ...myMath }
+export default { ...myMath }
