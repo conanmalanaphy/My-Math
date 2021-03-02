@@ -4,13 +4,15 @@
   "description": "Math functions ",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist/**/*"],
   "scripts": {
     "start": "tsc && node dist/index.js",
     "build": "tsc",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --fix",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "yarn build"
   },
   "repository": {
     "type": "git",
