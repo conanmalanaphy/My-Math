@@ -3,7 +3,8 @@ import {
     subtract,
     multiply,
     divide,
-    exponent } from './simpleOperations';
+    exponent
+} from './simpleOperations';
 
 describe("Calculator tests", () => {
     test('adding 1 + 2 should return 3', () => {
